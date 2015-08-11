@@ -4,7 +4,7 @@ Dump WSDLs and all dependencies to file, preserving the remote structures
 ## Usage
 Build the project with maven:
 
-    $ mvn clean install package appassembler:assemble
+    $ mvn clean install appassembler:assemble
 
 This produces a `wsdldump` script that you can use:
 
